@@ -1,0 +1,45 @@
+{
+  "general": {
+    "bridge_name": "Bridge_42",
+    "girder_type": "single_cell_box",
+    "span_length": 48000,
+    "total_bridge_width": 13200,
+    "carriageway_width": 9800,
+    "number_of_lanes": 3,
+    "skew_angle": 15,
+    "cross_fall_percent": 2.5
+  },
+  "girder_geometry": {
+    "girder_depth": 2600,
+    "top_slab_thickness": 250,
+    "bottom_slab_thickness": 320,
+    "web_thickness": 380,
+    "cantilever_length": 1600,
+    "inside_clear_width": 5800,
+    "haunch_size": 120,
+    "diaphragm_thickness": 350,
+    "diaphragm_spacing": 6000
+  },
+  "alignment": {
+    "start_chainage": 0,
+    "end_chainage": 48000,
+    "longitudinal_gradient": 1.5,
+    "horizontal_radius": 0,
+    "vertical_curve_radius": 0
+  },
+  "pier_data": {
+    "pier_spacing": 12000,
+    "bearing_seat_width": 1200,
+    "bearing_seat_length": 1700
+  },
+  "segment": {
+    "segment_length": 3000,
+    "number_of_segments": 16,
+    "match_cast_joint_thickness": 25
+  },
+  "prestressing": {
+    "tendon_duct_diameter": 110,
+    "tendon_profile_type": "parabolic_placeholder",
+    "tendon_cover": 80
+  }
+}
